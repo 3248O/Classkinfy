@@ -1,10 +1,10 @@
-# Classkinfy
 # Skin disease classification using Smartphone Images and Deep Learning
 
 ## Overview
 This repository is an implementation of a skin disease classification system using smartphone camera images, image processing, and deep learning techniques. The system uses image processing with a CNN based on a modified EfficientNet architecture to classify multi-category skin disease. The system is designed to support offline model evaluation and real time inference with a lightweight backend. 
-The primary objective of this project of this porject is to investigate the effectiveness of deep learning image classication for dermatological analysis using non clinical image, such as smartphone images, while still trying to solve challenges relating to image quality, class imbalance and visual similarity among skin diseases. 
+The primary objective of this project of this project is to investigate the effectiveness of deep learning image classification for dermatological analysis using non clinical image, such as smartphone images, while still trying to solve challenges relating to image quality, class imbalance and visual similarity among skin diseases. 
 
+Note: Full paper can be found at Report.pdf (https://github.com/3248O/Classkinfy/blob/main/Report.pdf)
 
 ---
 
