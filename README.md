@@ -47,6 +47,27 @@ This study uses the **HAM10000 (Human Against Machine with 10000 training images
 - Research-oriented design for reproducibility and evaluation  
 
 ---
+## Dataset Access
+
+Due to size and licensing constraints, the HAM10000 dataset is not included
+in this repository. The dataset can be obtained from:
+
+https://www.kaggle.com/datasets/owentj/ham10000
+
+After downloading, place the dataset in:
+data/raw/HAM10000/
+
+---
+## Multi-Stage Classification Approach
+
+The system uses a two-stage classification strategy:
+1. A primary multi-class classifier to identify the disease category
+2. Five disease-specific severity classifiers trained independently
+
+This design improves sensitivity and interpretability by allowing
+severity estimation to focus on disease-specific visual patterns.
+
+---
 
 ## Technologies Used
 - Python  
